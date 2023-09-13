@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --GhostWhite: #fcf8ff;
+  --Purple: #24053e;
+  --Green: #44ffa1;
+  --Grey: #584d62;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Manrope", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.btn-primary {
+  background-color: var(--Green);
+  color: var(--Purple);
+  border: var(--Green) 1px solid;
+  padding: 11.5px 23.5px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+}
+.btn-primary:hover {
+  border: var(--Green) 1px solid;
+  color: var(--Green);
+  background-color: var(--Purple);
+}
+.btn-secondary {
+  font-weight: 700;
+  color: white;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid var(--Green);
+  padding: 2px 0px;
+}
+.btn-secondary:hover {
+  border-bottom: 1px solid var(--Green);
+  color: var(--Green);
+}
+.heading-l {
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: "Fraunces", serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+}
+.heading-m {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 64px;
+}
+.heading-s {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}

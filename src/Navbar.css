@@ -1,0 +1,28 @@
+.navbar {
+  background-color: var(--Purple);
+  width: 1110px;
+  max-width: 95%;
+  margin: 57px 0px 55px 0px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: auto;
+}
+.navbar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 689px;
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+}

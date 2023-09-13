@@ -1,0 +1,110 @@
+.feature-list-container {
+  background-color: var(--GhostWhite);
+  margin-top: -226px;
+  height: 890px;
+  padding-top: 481px;
+}
+.features-list {
+  width: 1114px;
+  height: 308px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  gap: 26px;
+}
+.features-list-item {
+  max-width: 354px;
+}
+.features-list-no {
+  border: 1px solid var(--Grey);
+  max-width: 56px;
+  height: 56px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features-list-no-span {
+  font-family: "Fraunces", serif !important;
+  font-size: 20px !important;
+  font-weight: 600;
+  line-height: 36px;
+}
+.features-list-no-span {
+  font-size: 24px;
+  font-weight: 600;
+}
+.features-list-header {
+  color: var(--Purple);
+  margin-bottom: 28px;
+  margin-top: 56px;
+}
+.features-list-content {
+  color: var(--Grey);
+}
+@media screen and (max-width: 1200px) {
+  .feature-list-container {
+    background-color: var(--GhostWhite);
+    margin-top: -99px;
+    height: 884px;
+    padding-top: 341px;
+  }
+  .features-list {
+    width: 573px;
+    height: 476px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .features-list-item {
+    max-width: 573px;
+  }
+  .features-list-item {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    gap: 32px;
+    text-align: start;
+  }
+  .feature-group-1 {
+    width: 48px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .features-list-no {
+    width: 48px;
+    height: 46px;
+  }
+  .feature-group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 493px;
+    gap: 16px;
+  }
+  .features-list-header {
+    text-align: start !important;
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    max-height: 36px;
+    width: 100%;
+  }
+  .features-list-content {
+    line-height: 28px;
+    font-size: 16px;
+  }
+}

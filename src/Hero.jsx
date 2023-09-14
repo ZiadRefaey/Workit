@@ -10,7 +10,7 @@ export default function Hero() {
     <>
       <div className="hero">
         <Navbar />
-        <h1 className="heading-l">
+        <h1 className="heading-l hero-header">
           Data <span className="heading-span heading-l">tailored</span> to
           <br /> your needs.
         </h1>

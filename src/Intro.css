@@ -78,3 +78,40 @@
     bottom: -105.74px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .intro-container {
+    height: 603px;
+    width: 343px;
+    margin-top: 99.2px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 75px;
+  }
+  .intro-title {
+    font-size: 32px !important;
+    line-height: 48px;
+  }
+  .intro-img {
+    min-width: 281px;
+    height: 281px;
+  }
+  .intro-content {
+    color: white;
+    padding: 32px 31px 32px 31px;
+    min-width: 343px;
+    min-width: 343px;
+    position: relative;
+    margin: 0px;
+    margin-top: -53px;
+    align-self: center;
+    text-align: center;
+  }
+  .intro-desc {
+    margin: 16px 0px 24px 0px;
+  }
+  .intro-pattern {
+    display: none;
+  }
+}

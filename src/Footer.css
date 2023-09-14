@@ -23,3 +23,9 @@
     margin-top: 80px;
   }
 }
+@media screen and (max-width: 375px) {
+  .footer-container {
+    margin-bottom: 63.78px;
+    margin-top: 0px;
+  }
+}

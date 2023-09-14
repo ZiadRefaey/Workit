@@ -11,7 +11,7 @@
   font-family: "Manrope", sans-serif;
 }
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .btn-primary {
   background-color: var(--Green);

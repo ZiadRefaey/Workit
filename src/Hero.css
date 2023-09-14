@@ -49,3 +49,34 @@
     width: 514px;
   }
 }
+@media screen and (max-width: 550px) {
+  .hero {
+    height: 464px;
+  }
+  .pattern-1,
+  .pattern-2 {
+    display: none;
+  }
+
+  .hero-header,
+  .heading-span {
+    font-size: 44px !important;
+    font-weight: 600 !important;
+    line-height: 50px !;
+  }
+}
+@media screen and (max-width: 484px) {
+  .hero {
+    margin-bottom: -3px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .hero {
+    margin-bottom: -5px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hero {
+    margin-bottom: -7px;
+  }
+}
